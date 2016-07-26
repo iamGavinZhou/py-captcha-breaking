@@ -19,10 +19,10 @@
 
 
 #各阶段精度
->> (1) CFS: ~= 99%
->> (2) 判断CFS块的可能字符数: ~= 80%
->> (3) 字符分割: ~= 98%
->> (4) 单字符识别: ~= 89% (with Caffe)
+>> 1. CFS: ~= 99%
+>> 2. 判断CFS块的可能字符数: ~= 80%
+>> 3. 字符分割: ~= 98%
+>> 4. 单字符识别: ~= 89% (with Caffe)
 
 ---
 #训练各阶段源码
@@ -38,15 +38,15 @@
 ---
 
 #Software requirements
->> (1) `Caffe`和`pycaffe`
+>> - `Caffe`和`pycaffe`
 >> 参考: [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html)
->> (2) `Keras` >= 0.2.x
+>> - `Keras` >= 0.2.x
 >> 参考: [Keras installation instructions](http://keras.io/#installation)
->> (3) `cv2`(openCV的python接口)
+>> - `cv2`(openCV的python接口)
 >> 将`cv2.so`放入`/usr/lib/python2.7/dist-packages`
->> (4) `skimage`
->> (5 `numpy` and `pandas`
->> (6 `PIL`
+>> - `skimage`
+>> - `numpy` and `pandas`
+>> - `PIL`
 
 ---
 #demo
